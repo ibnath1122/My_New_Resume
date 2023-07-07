@@ -1,0 +1,28 @@
+body {
+    font-family:Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 960px;
+    margin: auto;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2em;
+}
+
+section {
+    margin: auto 2em 2em 3em;
+}
+
+#mainLeft {
+    border-right: 1px solid rgb(5, 5, 5);
+}
+
+img{
+    border-radius: 50%;
+    width: 25%;
+    height: 33%;
+    margin: 1px auto;
+    display: block;
+}
